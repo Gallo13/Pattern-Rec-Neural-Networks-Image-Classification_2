@@ -1,0 +1,45 @@
+Final Project Part 2:
+
+Problem 1:
+You can continue with the dataset you used for FinalProjectPart1 – Problem 2 or you can pick-up another dataset. Requirements to the 
+dataset if you pick-up a new one are the same: not less than 4 classes, not less than 1000 images for each of the classes in the training 
+set, not less than 300 images for each of the classes in the validation set, not less than 60 images for each of the classes in the test 
+set). Datasets as MNIST, CIFAR-10, CIFAR-100 or MNIST-like and CIFAR-like are excluded. Use dataset normalization. As the datasets are 
+usually bigger than the specified size above, you can use only part of it as in dogs-vs-cats.
+
+When displaying numerical results use instead of only two digits after the decimal point, four digits after the decimal point. When 
+possible use tabular and graphics for displaying all results what you have done in Part 1 of Final Project.
+
+A) Cut the original dataset if necessary and split the new one into three subsets: traing set, valdiation set, and test set. Kepp an 
+   apploximation ratio 70%-20%-10%
+
+   Make a display of the three classes like a graph plus the numerical way:
+   
+   Number of Samples Train: 3091
+   Number of Samples ValidationL 616
+   Number of Samples Test: 155
+   
+   *graph*
+
+B) Use Sequential model and build the topology of your CNN with not less than four convolutional layers. Use data normalization, batches 
+   and batch normalization, Glorot initialization, RELU activation function, shuffling, number of epochs not less than 50. All other 
+   elements as well as parameters of the CNN are up to you.
+
+C) Display the number of patterns in each class for the training and validation sets like in the example shown below. Do the same for 
+   the test set as well. In this case both the training and validation sets are imbalanced.
+
+D) Perform augmentation for only training and validation sets and for only the underrepresented classes. Make the same display as above 
+   only for training and validation sets after augmentation. Do not implement augmentation for the test set.
+
+E) Make experiments with three different optimizers by your choice (exclude Gradient Descent and SGD with or without momentum) and plot 
+   the train and validation accuracy and train and validation loss (see the example below). Pick up the thickness of the lines so that 
+   the graphics are well visible. Show the optimizer on the figures what is not done below. Increase the number of epochs if the learning 
+   accuracy shows the tendency of further increase.
+
+F) Evaluate the performance of each implemented by you optimizer using the test set. Display the normalized confusion matrix, precision, 
+   recall, F1-score, support. Draw ROC and AUC.
+
+G) Visualize several channels in some intermediate activations and display at least 12 images from the test set with correct and wrong 
+   predictions.
+
+H) Build ensemble based on the results of implemented by you optimizers and evaluate the ensemble performance.
