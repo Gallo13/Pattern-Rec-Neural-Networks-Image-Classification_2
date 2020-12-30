@@ -46,10 +46,8 @@ H) Build ensemble based on the results of implemented by you optimizers and eval
 
 =======================================================================================================================================================
 DATA DESCRIPTION
-Original dataset is from https://www.kaggle.com/chrisfilo/fruit-recognition and consists of 44406 fruit images. These images are from 15 different kind of fruits. 
-Images were made in a lab environment, with different angles, lightning, variation and etc. Each image has the size of 320x358. However, for this lab we took only 
-part of the data. We collected around 1000 pictures from each class for our training set, around 300 from each class for our validation class and around 60 from each 
-class for our testing set.
+Original dataset is from https://www.kaggle.com/chrisfilo/fruit-recognition and consists of 44406 fruit images. These images are from 15 different kind of fruits. Images were made in a lab environment, with different angles, lightning, variation and etc. Each image has the size of 320x358. However, for this lab we took only 
+part of the data. We collected around 1000 pictures from each class for our training set, around 300 from each class for our validation class and around 60 from each class for our testing set.
 
 - 12526 images in training set
 - 3922 images in testing set
